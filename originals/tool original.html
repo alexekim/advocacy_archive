@@ -1,0 +1,38 @@
+<div id="finder">
+<div class="inner">
+<h3>Refine your search:</h3>
+<!-- Filter Criteria -->
+<script type="text/javascript" src="/system/components/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/system/components/yui/yuiloader/yuiloader.js"></script>
+<script type="text/javascript" src="/system/components/date-chooser/date-chooser.js"></script>
+
+<form action="/get-involved/become-an-advocate/advocacy-archive.html" style="display:inline" >
+<div id="byTopic">
+<label>By Topic:</label>
+<select name="issue_topic">
+<option value="">Any</option>
+<option value="healthy-air">Healthy Air</option>
+<option value="lung-health-and-diseases">Lung Health and Diseases</option>
+<option value="tobacco">Tobacco</option>
+</select>
+</div>
+<div id="byType">
+<label>By Type:</label>
+<select name="resource_type">
+<option value="">Any</option>
+<option value="brief">Brief</option>
+<option value="comment">Comment</option>
+<option value="letter">Letter</option>
+<option value="statement">Statement</option>
+<option value="testimony">Testimony</option>
+</select>
+</div>
+<div id="byDate">
+<input type="hidden" name="dateType" value="date">
+<label>By Date:</label>
+<div class='yui-skin-sam'><div class='date-chooser'><input type="text" name="startDate" size="10" value=""></div></div> <span id="date" class="separator">to</span> <div class='yui-skin-sam'><div class='date-chooser'><input type="text" name="endDate" size="10" value=""></div></div>
+</div>
+<input type="submit" value="Search" class="button red">
+</form>
+</div>
+</div>
